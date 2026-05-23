@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap');
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f0f4ff;
+  --surface: #ffffff;
+  --border: #e0e6f7;
+  --accent: #4f46e5;
+  --accent-light: #eef2ff;
+  --text: #1e1b4b;
+  --muted: #94a3b8;
+  --bubble-mine: #4f46e5;
+  --bubble-other: #ffffff;
+  --online: #22c55e;
+}
+body { background: var(--bg); font-family: 'Nunito', sans-serif; color: var(--text); height: 100vh; overflow: hidden; }
